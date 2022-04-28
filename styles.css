@@ -4,46 +4,61 @@ body {
 }
 .banner {
   background-image: url("https://cdni.iconscout.com/illustration/free/preview/web-development-2933380-2463833.png?w=0&h=700");
-  height: 600px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center -30px;
+  top: 150px;
+  background-color: #043FD4;
 }
 h1 {
+  position: relative;
   text-align: center;
   font-weight: 600;
   font-size: 45px;
-  margin-top: 0px;
-  padding-top: 490px;
-  margin-bottom: 80px;
+  top: 200px;
   text-transform: uppercase;
 }
-navbar {
+header {
   position: fixed;
-  background-color: #D6EAF8;
+  background-color: cornflowerblue;
   width: 100%;
   z-index: 10;
-  margin: 0;
+  top: 0;
+  left: 0;
   padding: 4px 0;
 }
+nav {
+  position: relative;
+  left: 10px;
+}
 a:link, a:visited {
-  background-color: #7FB3D5;
-  color: white;
+  background-color: royalblue;
+  color: black;
+  font-weight: 600;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 5px;
+  border-radius: 3px;
 }
 a:hover, a:active {
   background-color: red;
 }
 table {
-  border: 2px solid #1F618D;
+  border: 2px solid royalblue;
   width: 100%;
 }
 thead {
   font-weight: bold;
-  background-color: #7FB3D5;
+  background-color: cornflowerblue;
   margin:30px;
 }
 td {
   padding: 5px;
+  border-top: 1px solid royalblue;
+}
+code {
+  background-color: khaki;
+  font-family: Consolas, monospace;
 }
